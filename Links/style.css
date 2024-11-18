@@ -1,0 +1,26 @@
+
+body{
+    /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://steamuserimages-a.akamaihd.net/ugc/2512531148917316637/D43A809F9389E3B58859554C8AEA0C8407CA9F7E/?imw=1024&imh=576&ima=fit&impolicy=Letterbox&imcolor=%23000000&letterbox=true");    background-size: 102%;*/
+    background-color: rgb(74, 74, 74);
+}
+a {
+    position: static;
+    color: black;
+    text-decoration: ButtonText;
+    border: black solid 3px;
+    background-color: #acacac;
+    border-radius: 10px;
+    font-family: Copperplate, sans-serif, serif;
+}
+a:hover {
+    color: #7a16d3;
+    background-color: #f4ef40;
+    border-color: #7a16d3;
+}
+p{
+        font-size: xx-large;
+        height: 50px;
+        text-align: center;
+
+
+}
