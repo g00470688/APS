@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -15,6 +19,15 @@ public class Menu
                 """);
 		do
 		{
+			Scanner getEmployee = new Scanner(new File("Employees.txt"));
+		FileWriter fwriter = new FileWriter("Employees.txt", true);
+		Random rd = new Random();
+		int employeeId;
+		String employeeName;
+		PrintWriter empFile = new PrintWriter(fwriter);
+		Scanner kb = new Scanner(System.in);
+		String  choice;
+
 			System.out.println("Enter an integers(a mod b): ");
 			a = Integer.parseInt(sc.next());
 			b = Integer.parseInt(sc.next());
