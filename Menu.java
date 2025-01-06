@@ -15,7 +15,7 @@ public class Menu
                 """);
 		do
 		{
-			System.out.println("Enter an integers(a mod b): ");
+			System.out.println("Enter an integers(a % b): ");
 			a = Integer.parseInt(sc.next());
 			b = Integer.parseInt(sc.next());
 			if (a > 0)
@@ -29,7 +29,7 @@ public class Menu
 				}
 				System.out.println(a % b);
 			}
-			System.out. println("would you like to run again? (y/n)");
+			System.out. println("would you like to run again? (Y/n)");
 			run = sc.nextLine();
 			sc.nextLine();
 		}while(run.equalsIgnoreCase("Y"));
