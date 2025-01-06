@@ -19,16 +19,6 @@ public class Menu
                 """);
 		do
 		{
-			Scanner getEmployee = new Scanner(new File("Employees.txt"));
-		FileWriter fwriter = new FileWriter("Employees.txt", true);
-		Random rd = new Random();
-		int employeeId;
-		String employeeName;
-		PrintWriter empFile = new PrintWriter(fwriter);
-		Scanner kb = new Scanner(System.in);
-		String  choice;
-
-			System.out.println("Enter an integers(a mod b): ");
 			a = Integer.parseInt(sc.next());
 			b = Integer.parseInt(sc.next());
 			if (a > 0)
@@ -42,7 +32,7 @@ public class Menu
 				}
 				System.out.println(a % b);
 			}
-			System.out. println("would you like to run again? (y/n)");
+			System.out. println("would you like to run again? (Y/n)");
 			run = sc.nextLine();
 			sc.nextLine();
 		}while(run.equalsIgnoreCase("Y"));
