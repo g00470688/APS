@@ -15,7 +15,7 @@ public class Menu
                 """);
 		do
 		{
-			System.out.println("Enter an integers(a mod b): ");
+			System.out.println("Enter an integers(a % b): ");
 			a = Integer.parseInt(sc.next());
 			b = Integer.parseInt(sc.next());
 			if (a > 0)
