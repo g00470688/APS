@@ -1,3 +1,7 @@
+import java.io.File;
+import java.io.FileWriter;
+import java.io.PrintWriter;
+import java.util.Random;
 import java.util.Scanner;
 
 
@@ -15,7 +19,6 @@ public class Menu
                 """);
 		do
 		{
-			System.out.println("Enter an integers(a % b): ");
 			a = Integer.parseInt(sc.next());
 			b = Integer.parseInt(sc.next());
 			if (a > 0)
